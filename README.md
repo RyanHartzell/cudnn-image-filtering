@@ -7,9 +7,9 @@ A tutorial for basic spatial filtering of imagery on the GPU using PyTorch. This
 
 This project requires the following for GPU support:
 
-Python3.6 or greater
-An NVIDIA graphics card that supports CUDA 10 and is greater than ... in compute power (link to table of existing cards to aid user in checking)
-The ability to install necessary CUDA toolkits, libraries, and SDKs as needed by PyTorch
+* Python3.6 or greater
+* An NVIDIA graphics card that supports CUDA 10 and is greater than ... in compute power (link to table of existing cards to aid user in checking)
+* The ability to install necessary CUDA toolkits, libraries, and SDKs as needed by PyTorch
 
 ### Install CUDA, CUDA Toolkits, and CuDNN
 
