@@ -11,9 +11,15 @@ This project requires the following for GPU support:
 * An NVIDIA graphics card that supports CUDA 10 and is greater than ... in compute power (link to table of existing cards to aid user in checking)
 * The ability to install necessary CUDA toolkits, libraries, and SDKs as needed by PyTorch
 
-### Install CUDA, CUDA Toolkits, and CuDNN
+### Install CUDA/CUDA Toolkit, and CuDNN
 
-(link to pytorch website) --> may involve setting up NVIDIA Developer account
+https://developer.nvidia.com/cuda-toolkit
+
+https://developer.nvidia.com/cudnn
+
+The versions you install will inform which PyTorch local installation you should go with.
+
+https://pytorch.org/
 
 ### Project installation and Virtual Environment Setup 
 
@@ -56,3 +62,7 @@ Run the Jupyter Notebook cell by cell from Jupyter!
 ```bash
 jupyter notebook "notebooks/CuDNN Image Filtering Tutorial Using PyTorch.ipynb"
 ```
+
+## NOTE!
+
+In the future, I will make this notebook available to run on Google Colab for reproducability.
