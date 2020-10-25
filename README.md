@@ -1,5 +1,9 @@
 # CuDNN Image Filtering via PyTorch
-A tutorial for basic spatial filtering of imagery on the GPU using PyTorch. This is an easy way to complement and accelerate traditional numpy/scipy/OpenCV image processing or image synthesis workflows
+A tutorial for basic spatial filtering of imagery on the GPU using PyTorch. This is an easy way to complement and accelerate traditional numpy/scipy/OpenCV image processing or image synthesis workflows.
+
+If you want to skip to the code, try running the associated notebook in Google Colab! It's free and let's you skip the installation steps below, and in a reproducable, GPU accelerated runtime environment. Click the badge!
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RyanHartzell/cudnn-image-filtering/blob/master/notebooks/CuDNN%20Image%20Filtering%20Tutorial%20Using%20PyTorch.ipynb)
 
 ## Installation
 
@@ -63,6 +67,4 @@ Run the Jupyter Notebook cell by cell from Jupyter!
 jupyter notebook "notebooks/CuDNN Image Filtering Tutorial Using PyTorch.ipynb"
 ```
 
-## NOTE!
-
-In the future, I will make this notebook available to run on Google Colab for reproducability.
+Or try running the notebook in a free, GPU accelerated Google Colab runtime as noted above!
